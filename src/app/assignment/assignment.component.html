@@ -1,0 +1,8 @@
+<form [formGroup]="profile">
+    <label>User Name</label><input type="text" formControlName="name">
+    <button (click)="submit()">Submit</button>
+</form>
+<div *ngFor="let item of aa">
+    
+    {{item}}
+</div>
